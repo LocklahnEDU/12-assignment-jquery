@@ -1,0 +1,23 @@
+.bg-primary {
+    background-color:  orange !important; /* Custom color */
+}
+
+.text-primary {
+    color:  black !important; /* Custom color */
+}
+
+.blur {
+    filter: blur(5px);
+    height: 350px !important;
+
+}
+
+.showmore::before{
+    content: "Show more";
+    
+}
+
+.showless::before{
+    content: "Show less";
+}
+
